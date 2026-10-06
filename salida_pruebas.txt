@@ -1,0 +1,35 @@
+
+1. Lista vacia
+Vacia
+Tamanio: 0
+
+2. Agregar y agregarAlFinal
+|Perro{raza='Labrador', edad=3, vacunado=true}|Perro{raza='Pug', edad=2, vacunado=true}| -> null
+Tamanio: 2
+
+3. Agregar al inicio
+|Perro{raza='Husky', edad=4, vacunado=false}|Perro{raza='Labrador', edad=3, vacunado=true}|Perro{raza='Pug', edad=2, vacunado=true}| -> null
+Tamanio: 3
+
+4. Agregar despues del Labrador
+|Perro{raza='Husky', edad=4, vacunado=false}|Perro{raza='Labrador', edad=3, vacunado=true}|Perro{raza='Beagle', edad=1, vacunado=true}|Perro{raza='Pug', edad=2, vacunado=true}| -> null
+Tamanio: 4
+Buscar un Beagle equivalente: 2
+
+5. Actualizar Pug por Pastor aleman
+|Perro{raza='Husky', edad=4, vacunado=false}|Perro{raza='Labrador', edad=3, vacunado=true}|Perro{raza='Beagle', edad=1, vacunado=true}|Perro{raza='Pastor aleman', edad=5, vacunado=true}| -> null
+Tamanio: 4
+
+6. Eliminar el primero
+|Perro{raza='Labrador', edad=3, vacunado=true}|Perro{raza='Beagle', edad=1, vacunado=true}|Perro{raza='Pastor aleman', edad=5, vacunado=true}| -> null
+Tamanio: 3
+
+7. Eliminar el final
+|Perro{raza='Labrador', edad=3, vacunado=true}|Perro{raza='Beagle', edad=1, vacunado=true}| -> null
+Tamanio: 2
+
+8. Pruebas adicionales
+|Perro{raza='Dalmata', edad=7, vacunado=false}|Perro{raza='Beagle', edad=1, vacunado=true}|Perro{raza='Husky', edad=4, vacunado=false}|Perro{raza='Pug', edad=2, vacunado=true}|Perro{raza='Pastor aleman', edad=5, vacunado=true}| -> null
+Tamanio: 5
+
+RESULTADO: 18 comprobaciones correctas.
